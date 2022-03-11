@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="image/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Donation.io✌</title>
+  </head>
+  <body> 
+    <nav>
+      <h2 class="heading--2">Donation<span class="donate animate__bounceInRight">.io</span></h2>
+
+      <div class="navgation">
+        <ul class="navgation__items">
+          <li class="navgation__item">
+            <a class="navgation__link" href="#header">Home</a>
+          </li>
+          <li class="navgation__item">
+            <a class="navgation__link" href="#about">About</a>
+          </li>
+          <li class="navgation__item">
+            <a class="navgation__link" href="#">Contact</a>
+          </li>
+          <li class="navgation__item">
+            <a class="navgation__link" href="#">Services</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="header">
+      <div class="contanier">
+        <h2 class="header__heading ">
+          <span > Donate </span>For the <span>poor Children</span>
+        </h2>
+        <center class="header__btn">
+          <form>
+            <script
+              src="https://checkout.razorpay.com/v1/payment-button.js"
+              data-payment_button_id="pl_HCHPwlyXlRKNDO"
+              async
+            ></script>
+          </form>
+        </center>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="card">
+        <svg class="card__icon">
+          <use xlink:href="image/sprite.svg#icon-coin-dollar">
+        </svg>
+        <h3 class="card__heading">Donation</h3>
+        <p class="card__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, nam sapiente dicta aut temporibus, veniam necessitatibus ipsa odit, pariatur fugiat. Eveniet odio enim magni laboriosam eligendi quisquam ratione provident!</p>
+      </div>
+      <div class="card">
+        <svg class="card__icon">
+          <use xlink:href="image/sprite.svg#icon-stats-bars2">
+        </svg>
+        <h3 class="card__heading">Fundraise</h3>
+        <p class="card__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, nam sapiente dicta aut temporibus, veniam necessitatibus ipsa odit, pariatur fugiat. Eveniet odio enim magni laboriosam eligendi quisquam ratione provident!</p>
+      </div>
+      <div class="card">
+        <svg class="card__icon">
+          <use xlink:href="image/sprite.svg#icon-users">
+        </svg>
+        <h3 class="card__heading">Volunteers</h3>
+        <p class="card__paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum eos, nam sapiente dicta aut temporibus, veniam necessitatibus ipsa odit, pariatur fugiat. Eveniet odio enim magni laboriosam eligendi quisquam ratione provident!</p>
+      </div>
+    </section>
+
+    <section class="stories">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="image/donating.webm" type="video/webm">
+          Your borwser is not supported! 
+        </video>
+      </div>
+
+      <div class="stories__captions">
+        <h2 class="stories__heading--2">
+          Change the life of those,
+        </h2>
+        <h2 class="stories__heading--2">
+          Who have no <span >hope</span>
+        </h2>
+        <p class="stories__text">Be the reason someone smiles today</p>
+        <a href="#header" class="stories__btn">Donate now</a >
+      </div>
+    </section>
+     
+    <section class="contact">
+
+      <h2 class="contact__heading">Contact Us</h2>
+      <form class="contact__form">
+        <div class="form__group ">
+          <input type="text" class="form__input" placeholder="Full name" id="name" required>
+          <label for="name" class="form__label">Full name</label>
+      </div>
+      <div class="form__group ">
+        <input type="email" class="form__input" placeholder="E-mail" id="name" required>
+        <label for="email" class="form__label">E-mail</label>
+    </div>
+    <div class="form__group ">
+      <input type="tel" class="form__input" placeholder="Phone number" id="name" required>
+      <label for="phone" class="form__label">Phone number</label>
+  </div>
+
+        <a class="stories__btn form__button" href="#">Send</a>
+      </form>
+    </section> 
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="image/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link linkdin-link"
+          target="_blank"
+          href="https://www.linkedin.com/in/abdelrahmantolba/"
+          >Abdelrahman Tolba</a
+        >
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
