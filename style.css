@@ -35,8 +35,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 2rem 7rem;
-  /* mobile */
-  /* flex-direction: column; */
 }
 @media only screen and (max-width: 38.125em) /*610px*/ {
   nav {
@@ -77,6 +75,7 @@ nav {
   text-decoration: none;
   color: #fff;
   transition: all 0.5s;
+  cursor: pointer;
 }
 .navgation__link:hover,
 .navgation__link:active {
@@ -153,8 +152,6 @@ nav {
   justify-items: center;
   padding: 0 20rem;
   margin: 15rem 0;
-  /* mobile */
-  /* flex-direction: column; */
 }
 .card {
   background-color: #eee;
@@ -200,13 +197,9 @@ nav {
   padding: 1rem;
 }
 .card__paragraph {
-  /* padding: 1rem; */
   color: rgb(63, 63, 63);
 }
-/* .footer {
-  background-image: url(image/wave.svg);
-  z-index: 1123;
-} */
+
 .stories {
   position: relative;
   padding: 15rem 0;
